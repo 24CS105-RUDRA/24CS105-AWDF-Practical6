@@ -25,7 +25,7 @@ async function request(path, options = {}) {
 async function runTests() {
   console.log('===============================================================');
   console.log('  Practical 5: MongoDB & Mongoose REST API Verification Tests ');
-  console.log('  Student: Dharm Lakhani (24CS046) | ITUE301                        ');
+  console.log('  Student: Rudra Vaghela (24CS105) | ITUE301                        ');
   console.log('===============================================================\n');
 
   // Wait for MongoDB connection

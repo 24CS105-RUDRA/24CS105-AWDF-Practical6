@@ -3,7 +3,7 @@
  * CSPIT - Computer Science & Engineering
  * Course: Advanced Web Development Frameworks (ITUE301)
  * Practical 6: Full Stack Integration React + Node + MongoDB
- * Student: Dharm Lakhani (24CS046)
+ * Student: Rudra Vaghela (24CS105)
  */
 
 require('dotenv').config();
@@ -79,7 +79,7 @@ const validateTaskId = (req, res, next) => {
 app.get('/', (req, res) => {
   res.status(200).json({
     message: 'Welcome to Task Manager RESTful API (Practical 6: React + Node + MongoDB)',
-    author: 'Dharm Lakhani (24CS046)',
+    author: 'Rudra Vaghela (24CS105)',
     course: 'ITUE301: Advanced Web Development Frameworks',
     database: mongoose.connection.readyState === 1 ? 'Connected (MongoDB Atlas)' : 'Connecting...',
     endpoints: {

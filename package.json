@@ -1,5 +1,5 @@
 {
-  "name": "24cs046-awdf-practical6",
+  "name": "24CS105-AWDF-Practical6",
   "version": "1.0.0",
   "description": "Practical 6: Full Stack Integration React + Node + MongoDB (ITUE301)",
   "private": true,
@@ -10,6 +10,6 @@
     "build:client": "npm --prefix client build"
   },
   "keywords": ["react", "express", "mongodb", "fullstack", "mongoose", "cors"],
-  "author": "Dharm Lakhani (24CS046)",
+  "author": "Rudra Vaghela (24CS105)",
   "license": "ISC"
 }
